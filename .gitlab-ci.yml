@@ -18,5 +18,5 @@ sync_from_github:
 
     - git push --mirror origin
   only:
-    # - schedules  # run only via scheduler, not on every commit
-    - branches
+    - schedules  # run only via scheduler, not on every commit
+    # - branches
